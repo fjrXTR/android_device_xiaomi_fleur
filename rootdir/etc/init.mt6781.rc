@@ -26,6 +26,7 @@ on early-init
     chmod 0755 /sys/kernel/debug
 
 on init
+    mount none /vendor/lost+found /vendor/overlay bind
     write /proc/bootprof "INIT:init"
     # Support legacy paths
     symlink /sdcard /mnt/sdcard
