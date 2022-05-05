@@ -425,9 +425,9 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
-    libkeystore-wifi-hidl:64 \
-    libkeystore-engine-wifi-hidl:64 \
-    android.hardware.wifi@1.0-service-lazy \
+    libkeystore-wifi-hidl \
+    libkeystore-engine-wifi-hidl \
+    android.hardware.wifi@1.0-service-lazy.fleur \
     wpa_supplicant \
     hostapd
 
