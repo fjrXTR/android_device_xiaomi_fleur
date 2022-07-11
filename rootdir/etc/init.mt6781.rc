@@ -22,6 +22,8 @@ on early-init
     chmod 0755 /sys/kernel/debug
 
 on init
+    stop console
+    
     write /proc/bootprof "INIT:init"
     # Support legacy paths
     symlink /sdcard /mnt/sdcard
