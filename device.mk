@@ -108,6 +108,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.fleur
 
+# MTK In-call service
+PRODUCT_PACKAGES += \
+    MtkInCallService
+
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
