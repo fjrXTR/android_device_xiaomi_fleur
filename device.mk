@@ -66,7 +66,7 @@ PRODUCT_PACKAGES += \
     audio_policy.stub \
     libalsautils \
     libaudiofoundation.vendor \
-    libavservices_minijail.vendor \
+    libbluetooth_audio_session.vendor \
     libbluetooth_audio_session
 
 # Audio configs
