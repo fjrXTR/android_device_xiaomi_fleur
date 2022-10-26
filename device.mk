@@ -170,6 +170,10 @@ PRODUCT_PACKAGES += \
     fstab.mt6781 \
 	fstab.mt6781_ramdisk
 
+# FMRadio
+PRODUCT_PACKAGES += \
+	MtkFMRadio
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
