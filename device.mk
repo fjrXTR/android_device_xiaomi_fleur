@@ -193,7 +193,7 @@ PRODUCT_BOOT_JARS += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common
-    
+
 # Init
 PRODUCT_PACKAGES += \
     init.cgroup.rc \
@@ -275,6 +275,11 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0.vendor \
     android.hardware.power@1.1.vendor \
     android.hardware.power@1.2.vendor
+
+# Power/Perf configs
+PRODUCT_COPY_FILES += \
+    $(foreach file,$(wildcard $(LOCAL_PATH)/configs/perf/*), \
+        $(file):$(addprefix $(TARGET_COPY_OUT_VENDOR)/etc/, $(notdir $(file))) )
 
 # Permissions
 PRODUCT_COPY_FILES += \

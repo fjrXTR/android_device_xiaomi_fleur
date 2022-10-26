@@ -1714,14 +1714,6 @@ vendor/etc/init/android.hardware.nfc@1.2-service-st.rc
 vendor/etc/init/hw/init.stnfc.rc
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci.conf
-vendor/etc/permissions/sku_fleur/android.hardware.nfc.hce.xml
-vendor/etc/permissions/sku_fleur/android.hardware.nfc.hcef.xml
-vendor/etc/permissions/sku_fleur/android.hardware.nfc.uicc.xml
-vendor/etc/permissions/sku_fleur/android.hardware.nfc.xml
-vendor/etc/permissions/sku_fleurp/android.hardware.nfc.hce.xml
-vendor/etc/permissions/sku_fleurp/android.hardware.nfc.hcef.xml
-vendor/etc/permissions/sku_fleurp/android.hardware.nfc.uicc.xml
-vendor/etc/permissions/sku_fleurp/android.hardware.nfc.xml
 vendor/lib/libnxp_extamp_intf.so
 vendor/lib/nfc_nci.st21nfc.st.so
 vendor/lib64/android.hardware.nfc@1.0.so
@@ -2028,11 +2020,6 @@ vendor/etc/mtk_omx_core.cfg
 vendor/etc/mtk_platform_codecs_config.xml
 vendor/etc/NOTICE_GPL.html.gz
 vendor/etc/partition_permission.sh
-vendor/etc/permissions/sku_fleur/android.hardware.se.omapi.uicc.xml
-vendor/etc/permissions/sku_fleurp/android.hardware.se.omapi.uicc.xml
-vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
-vendor/etc/power_app_cfg.xml
 vendor/etc/qc.xml
 vendor/etc/qc_Global_1.xml
 vendor/etc/qc_Global_2.2.xml
