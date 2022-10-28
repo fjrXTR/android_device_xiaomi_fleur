@@ -442,5 +442,9 @@ PRODUCT_PACKAGES += \
 # Add vendor log tags
 include $(LOCAL_PATH)/vendor_log_tags.mk
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.fleur
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/fleur/fleur-vendor.mk)
