@@ -167,7 +167,8 @@ PRODUCT_PACKAGES += \
 
 # FSTAB 
 PRODUCT_PACKAGES += \
-    fstab.mt6781
+    fstab.mt6781 \
+	fstab.mt6781_ramdisk
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
