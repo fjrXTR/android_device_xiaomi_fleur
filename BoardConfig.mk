@@ -123,5 +123,13 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
+# Wifi
+WPA_SUPPLICANT_VERSION := VER_0_8_X
+BOARD_HOSTAPD_DRIVER := NL80211
+WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
+## Copy wpa_supplicant init rc from external/wpa_supplicant
+WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
+
 # Inherit the proprietary files
 include vendor/xiaomi/fleur/BoardConfigVendor.mk
