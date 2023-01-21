@@ -205,6 +205,9 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-base \
     mediatek-telephony-common
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.mediatek.ims.xml
+
 # Init
 PRODUCT_PACKAGES += \
     init.cgroup.rc \
