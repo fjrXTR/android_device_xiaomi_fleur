@@ -104,6 +104,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/dtb.img:dtb.img
 
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.fleur
+
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
