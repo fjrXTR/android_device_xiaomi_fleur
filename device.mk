@@ -61,32 +61,16 @@ PRODUCT_CHARACTERISTICS := default
 
 # Rootdir
 PRODUCT_PACKAGES += \
-
-PRODUCT_PACKAGES += \
     fstab.mt6781 \
     init.modem.rc \
-    meta_init.rc \
     init.connectivity.rc \
     init.aee.rc \
-    factory_init.connectivity.rc \
     init.sensor_1_0.rc \
-    multi_init.rc \
-    meta_init.project.rc \
-    meta_init.connectivity.rc \
     init.mt6781.usb.rc \
     init.stnfc.rc \
     init.mt6781.rc \
-    factory_init.rc \
     init.ago.rc \
-    init.project.rc \
-    meta_init.modem.rc \
-    factory_init.project.rc \
-    init.recovery.hardware.rc \
-    init.recovery.mt6781.rc \
-    miui.factoryreset.rc \
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.mt6781:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.mt6781
+    init.project.rc 
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
