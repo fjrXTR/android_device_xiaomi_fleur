@@ -20,11 +20,15 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # A/B slot
-PRODUCT_PACKAGES += \
-    bootctrl.default \
-    android.hardware.boot@1.2-impl \
-    android.hardware.boot@1.2-impl.recovery \
-    android.hardware.boot@1.2-service
+AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += \
+    system \
+    vendor \
+    product \
+    boot \
+    vbmeta \
+    dtbo \
+    vbmeta_system
 
 PRODUCT_PACKAGES += \
     update_engine \
@@ -46,6 +50,13 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
+
+# Bootctrl
+PRODUCT_PACKAGES += \
+    bootctrl.default \
+    android.hardware.boot@1.2-impl \
+    android.hardware.boot@1.2.recovery \
+    android.hardware.boot@1.2-service
 
 # fastbootd
 PRODUCT_PACKAGES += \
