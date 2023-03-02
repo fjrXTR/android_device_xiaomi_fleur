@@ -59,6 +59,11 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2.recovery \
     android.hardware.boot@1.2-service
 
+# Dex
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+
 # fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
