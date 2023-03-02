@@ -58,6 +58,3 @@ lib/libem_usb_jni.so
 lib64/libem_usb_jni.so
 lib/libem_wifi_jni.so
 lib64/libem_wifi_jni.so
-
-# Prebuilt light binary - From module-2
-vendor/bin/hw/android.hardware.lights-service.mediatek:product/vendor_overlay/30/bin/hw/android.hardware.lights-service.mediatek
