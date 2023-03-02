@@ -69,6 +69,13 @@ prebuilt_etc {
     vendor: true,
 }
 
+prebuilt_etc {
+    name: "init.mediatek.rc",
+    src: "etc/init.mediatek.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
 // fstab
 prebuilt_etc {
     name: "fstab.mt6781",

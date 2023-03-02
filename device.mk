@@ -18,6 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
 PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_EXTRA_VNDK_VERSIONS := 30
 
 # A/B slot
 AB_OTA_UPDATER := true
@@ -65,6 +66,7 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
+    libsuspend \
     android.hardware.health@2.0 \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
@@ -92,9 +94,6 @@ PRODUCT_COPY_FILES += \
 # Kernel
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/dtb.img:dtb.img
-	
-# Overlays
-PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
@@ -115,7 +114,8 @@ PRODUCT_PACKAGES += \
     init.stnfc.rc \
     init.mt6781.rc \
     init.ago.rc \
-    init.project.rc 
+    init.project.rc \
+    init.mediatek.rc 
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
@@ -127,6 +127,10 @@ PRODUCT_SOONG_NAMESPACES += \
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
+
+# [TMP] Copy init files into vendor_overlay
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/rootdir/etc/init.mediatek.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.mediatek.rc
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/fleur/fleur-vendor.mk)
