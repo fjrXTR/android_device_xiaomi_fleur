@@ -60,10 +60,7 @@ function blob_fixup() {
     vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so)
         "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
         ;;
-    vendor/bin/mtk_agpsd)
-        "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v32.so" "${2}"
-        ;;
-    vendor/lib*/libmtkcam_stdutils.so)
+    vendor/lib64/libmtkcam_stdutils.so)
         "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
         ;;
     vendor/bin/hw/android.hardware.media.c2@1.2-mediatek)
@@ -83,3 +80,5 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 
 "${MY_DIR}/setup-makefiles.sh"
+
+vndk_import "${ANDROID_ROOT}" "libutils" "32" "both" "vndk-sp"
