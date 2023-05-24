@@ -212,8 +212,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.cgroup.rc \
     init.connectivity.rc \
-    init.connectivity.common.rc \
-    init_connectivity.rc \
     init.modem.rc \
     init.stnfc.rc \
     init.mt6781.rc \
