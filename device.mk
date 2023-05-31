@@ -262,8 +262,7 @@ PRODUCT_PACKAGES += \
 
 # Memtrack
 PRODUCT_PACKAGES += \
-    android.hardware.memtrack@1.0-service \
-    android.hardware.memtrack@1.0-impl
+    android.hardware.memtrack-service.mediatek-mali
 
 # Neural networks
 PRODUCT_PACKAGES += \
