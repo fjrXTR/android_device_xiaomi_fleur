@@ -84,5 +84,8 @@ BOARD_USES_RECOVERY_AS_BOOT := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
 
+# VNDK
+BOARD_VNDK_VERSION := current
+
 # Inherit the proprietary files
 include vendor/xiaomi/fleur/BoardConfigVendor.mk
