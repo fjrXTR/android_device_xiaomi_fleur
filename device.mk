@@ -72,6 +72,9 @@ PRODUCT_PACKAGES += \
     init.stnfc.rc \
     init_connectivity.rc 
 
+PRODUCT_PACKAGES += \
+    init.recovery.mt6781.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
