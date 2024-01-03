@@ -1465,7 +1465,6 @@ vendor/lib/egl/libMEOW_gift.so
 vendor/lib/egl/libMEOW_qt.so
 vendor/lib/egl/libMEOW_trace.so
 vendor/lib/hw/vulkan.mali.so
-vendor/lib/hw/vulkan.mt6781.so
 vendor/lib/libOpenCL.so
 vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/egl/libGLES_meow.so
@@ -1474,7 +1473,6 @@ vendor/lib64/egl/libMEOW_gift.so
 vendor/lib64/egl/libMEOW_qt.so
 vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/hw/vulkan.mali.so
-vendor/lib64/hw/vulkan.mt6781.so
 vendor/lib64/libOpenCL.so
 
 # IFAA
@@ -1555,7 +1553,6 @@ vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libmtkspparser.so
 vendor/lib/libmtksysutils.so
 vendor/lib/libmtk_bsg.so
-vendor/lib/libmtk_drvb.so
 vendor/lib/mt6781/libmtk_drvb.so
 vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so
@@ -1620,7 +1617,6 @@ vendor/lib64/libmtksysutils.so
 vendor/lib64/libmtktinyxml.so
 vendor/lib64/libmtkutils.so
 vendor/lib64/libmtk_bsg.so
-vendor/lib64/libmtk_drvb.so
 vendor/lib64/mt6781/libmtk_drvb.so
 vendor/lib64/vendor.mediatek.hardware.aee@1.0.so
 vendor/lib64/vendor.mediatek.hardware.aee@1.1.so
@@ -2393,7 +2389,6 @@ vendor/lib/libDefaultFpsActor.so
 vendor/lib/libdip_drv.so
 vendor/lib/libdip_imem.so
 vendor/lib/libdip_postproc.so
-vendor/lib/libdpframework.so
 vendor/lib/libdre.so
 vendor/lib/libdynamiclog.so
 vendor/lib/libfeature.stereo.provider.so
@@ -2457,8 +2452,6 @@ vendor/lib/libmtcloader.so
 vendor/lib/libmvpu_config_data.so
 vendor/lib/libneuroeara.so
 vendor/lib/libneuropilot_hal_utils.so
-vendor/lib/libnir_neon_driver.so
-vendor/lib/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib/libNoFpsActor.so
 vendor/lib/libnvram.so
 vendor/lib/libnvram_sec.so
@@ -2473,7 +2466,6 @@ vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/libpower_timer.so
 vendor/lib/libpqframework.so
 vendor/lib/libpq_cust_base.so
-vendor/lib/libpq_prot.so
 vendor/lib/libprotobuf-cpp-full-3.9.1.so
 vendor/lib/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib/libQstAlgo.so
@@ -2722,7 +2714,6 @@ vendor/lib64/libDefaultFpsActor.so
 vendor/lib64/libdip_drv.so
 vendor/lib64/libdip_imem.so
 vendor/lib64/libdip_postproc.so
-vendor/lib64/libdpframework.so
 vendor/lib64/libDR.so
 vendor/lib64/libdre.so
 vendor/lib64/libdynamiclog.so
@@ -2803,8 +2794,6 @@ vendor/lib64/libmtcloader.so
 vendor/lib64/libmvpu_config_data.so
 vendor/lib64/libneuroeara.so
 vendor/lib64/libneuropilot_hal_utils.so
-vendor/lib64/libnir_neon_driver.so
-vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib64/libNoFpsActor.so
 vendor/lib64/libnvram.so
 vendor/lib64/libnvram_sec.so
@@ -2819,7 +2808,6 @@ vendor/lib64/libpower_timer.so
 vendor/lib64/libpqframework.so
 vendor/lib64/libpqparamparser.so
 vendor/lib64/libpq_cust_base.so
-vendor/lib64/libpq_prot.so
 vendor/lib64/libprotobuf-cpp-full-3.9.1.so
 vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib64/libQstAlgo.so
