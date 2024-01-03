@@ -13,12 +13,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
-PRODUCT_PACKAGES += \
-    android.hardware.boot@1.2-impl \
-    android.hardware.boot@1.2-impl.recovery \
-    android.hardware.boot@1.2-service
+AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    system \
+    vendor \
+    product \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor
 
 PRODUCT_PACKAGES += \
+    otapreopt_script \
+    checkpoint_gc \
     update_engine \
     update_engine_sideload \
     update_verifier
@@ -35,9 +43,12 @@ AB_OTA_POSTINSTALL_CONFIG += \
     FILESYSTEM_TYPE_vendor=ext4 \
     POSTINSTALL_OPTIONAL_vendor=true
 
+# Bootctrl
 PRODUCT_PACKAGES += \
-    checkpoint_gc \
-    otapreopt_script
+    bootctrl.default \
+    android.hardware.boot@1.2-impl \
+    android.hardware.boot@1.2-service \
+    android.hardware.boot@1.2.recovery
 
 # fastbootd
 PRODUCT_PACKAGES += \
