@@ -208,9 +208,6 @@ vendor/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
-vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
-vendor/etc/bluetooth_audio_policy_configuration.xml
-vendor/etc/bluetooth_offload_audio_policy_configuration.xml
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 vendor/lib/android.hardware.bluetooth.audio@2.0.so
 vendor/lib/android.hardware.bluetooth.audio@2.1.so
@@ -1449,15 +1446,6 @@ vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib64/libdrm.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
-# Fido
-vendor/bin/fidoca
-vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml
-vendor/lib/libmfido.so
-vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so
-vendor/lib64/libmfido.so
-vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so
-
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
@@ -1565,8 +1553,6 @@ vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 
-# GPS-Hardware
-
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service
 vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
@@ -1578,10 +1564,6 @@ vendor/lib64/android.hardware.gatekeeper@1.0.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.beanpod.so
 vendor/lib64/hw/gatekeeper.default.so
-
-# Google
--vendor/app/GoogleNetworkStackResOverlay/GoogleNetworkStackResOverlay.apk
--vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk
 
 # Graphics
 vendor/lib/egl/egl.cfg
@@ -1603,19 +1585,6 @@ vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/hw/vulkan.mali.so
 vendor/lib64/hw/vulkan.mt6781.so
 vendor/lib64/libOpenCL.so
-
-# Health
-vendor/bin/hw/android.hardware.health@2.1-service
-vendor/etc/init/android.hardware.health@2.1-service.rc
--vendor/etc/vintf/manifest/android.hardware.health@2.1.xml
-vendor/lib/android.hardware.health@1.0.so
-vendor/lib/android.hardware.health@2.0.so
-vendor/lib/android.hardware.health@2.1.so
-vendor/lib/hw/android.hardware.health@2.0-impl-2.1.so
-vendor/lib64/android.hardware.health@1.0.so
-vendor/lib64/android.hardware.health@2.0.so
-vendor/lib64/android.hardware.health@2.1.so
-vendor/lib64/hw/android.hardware.health@2.0-impl-2.1.so
 
 # IFAA
 -vendor/app/IFAAService/IFAAService.apk
@@ -1648,24 +1617,8 @@ vendor/lib64/libpuresoftkeymasterdevice.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
-# Lights
-vendor/bin/hw/android.hardware.lights-service.mediatek
-vendor/etc/init/lights-mtk-default.rc
--vendor/etc/vintf/manifest/lights-mtk-default.xml
-vendor/lib/hw/lights.mt6781.so
-vendor/lib64/android.hardware.light@2.0.so
-vendor/lib64/hw/lights.mt6781.so
-
 # Listen
-vendor/lib/android.hardware.soundtrigger@2.1.so
-vendor/lib/android.hardware.soundtrigger@2.2.so
-vendor/lib/android.hardware.soundtrigger@2.3.so
-vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so
 vendor/lib/hw/sound_trigger.primary.default.so
-vendor/lib64/android.hardware.soundtrigger@2.1.so
-vendor/lib64/android.hardware.soundtrigger@2.2.so
-vendor/lib64/android.hardware.soundtrigger@2.3.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so
 vendor/lib64/hw/sound_trigger.primary.default.so
 
 # Media
@@ -1983,16 +1936,6 @@ vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
 vendor/lib/hw/thermal.mt6781.so
 vendor/lib64/hw/thermal.mt6781.so
 
-# Time
-
-# Vibrator
-vendor/etc/init/vibrator-mtk-default.rc
--vendor/etc/vintf/manifest/vibrator-mtk-default.xml
-vendor/lib/hw/vibrator.default.so
-vendor/lib/libvibrator.so
-vendor/lib64/hw/vibrator.default.so
-vendor/lib64/libvibrator.so
-
 # WiFi
 bin/iwpriv
 vendor/bin/hw/android.hardware.wifi@1.0-service-lazy
@@ -2191,11 +2134,6 @@ vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/xcap
-vendor/bin/[
-vendor/build_fleur.prop
-vendor/build_fleurp.prop
-vendor/build_miel.prop
-vendor/build_mielp.prop
 vendor/data/misc/pdc.txt
 vendor/etc/.tp/.ht120.mtc
 vendor/etc/102_SummerDay.png
@@ -2218,7 +2156,6 @@ vendor/etc/125_Tango.png
 vendor/etc/126_Fantasy.png
 vendor/etc/127_Slumber.png
 vendor/etc/128_Carmen.png
-vendor/etc/a2dp_in_audio_policy_configuration.xml
 vendor/etc/AbnormalDisplayLog_dynamic.xml
 vendor/etc/aee-commit
 vendor/etc/aee-config
@@ -2364,12 +2301,6 @@ vendor/etc/qc_India_1.12.5.xml
 vendor/etc/qc_India_1.19.5.xml
 vendor/etc/qc_India_1.xml
 vendor/etc/rcv_pb.wav
-vendor/etc/rsc/default/ro.prop
-vendor/etc/rsc/default/rw.prop
-vendor/etc/rsc/PRC/ro.prop
-vendor/etc/rsc/PRC/rw.prop
-vendor/etc/rsc/ROW/ro.prop
-vendor/etc/rsc/ROW/rw.prop
 vendor/etc/screen_light.xml
 vendor/etc/security/cacerts/01419da9.0
 vendor/etc/security/cacerts/04f60c28.0
@@ -2536,7 +2467,6 @@ vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
 vendor/etc/wfd_source_capability.csv
 vendor/etc/xgf.cfg
-vendor/fstab.enableswap
 vendor/lib/android.frameworks.sensorservice@1.0.so
 vendor/lib/android.hardware.boot@1.0.so
 vendor/lib/android.hardware.boot@1.1.so
@@ -3163,14 +3093,6 @@ vendor/lib64/soundfx/libmisoundfx.so
 vendor/lib64/vendor.microtrust.hardware.thh@2.0.so
 vendor/lib64/VP9SecureVdecCA.so
 vendor/lib64/wechat.beanpod.so
-vendor/odm_dlkm/etc/build.prop
-vendor/odm_dlkm/etc/NOTICE.xml.gz
--vendor/priv-app/GpuGameDriver.mt6781/GpuGameDriver.mt6781.apk
-vendor/res/images/lcd_test_00.png
-vendor/res/images/lcd_test_01.png
-vendor/res/images/lcd_test_02.png
-vendor/res/sound/ringtone.wav
-vendor/res/sound/testpattern1.wav
 vendor/thh/ta/0102030405060708090a0b0c0d0e0f10.ta
 vendor/thh/ta/020f0000000000000000000000000000.ta
 vendor/thh/ta/05120000000000000000000000000000.ta
@@ -3198,5 +3120,3 @@ vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
 vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
 vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
 vendor/thh/ta/isee_model.json
-vendor/vendor_dlkm/etc/build.prop
-vendor/vendor_dlkm/etc/NOTICE.xml.gz
