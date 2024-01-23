@@ -2400,7 +2400,6 @@ vendor/lib/android.frameworks.sensorservice@1.0.so
 vendor/lib/android.hardware.boot@1.0.so
 vendor/lib/android.hardware.boot@1.1.so
 vendor/lib/android.hardware.boot@1.2.so
-vendor/lib/android.hardware.ir@1.0.so
 vendor/lib/android.hardware.media.c2@1.0.so
 vendor/lib/android.hardware.media.c2@1.1.so
 vendor/lib/android.hardware.media.c2@1.2.so
@@ -2693,7 +2692,6 @@ vendor/lib64/android.hardware.boot@1.1.so
 vendor/lib64/android.hardware.boot@1.2.so
 vendor/lib64/android.hardware.dumpstate@1.0.so
 vendor/lib64/android.hardware.dumpstate@1.1.so
-vendor/lib64/android.hardware.ir@1.0.so
 vendor/lib64/android.hardware.media.c2@1.0.so
 vendor/lib64/android.hardware.media.c2@1.1.so
 vendor/lib64/android.hardware.media.c2@1.2.so
