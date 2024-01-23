@@ -33,7 +33,14 @@ PRODUCT_PACKAGES += \
     libaudiofoundation.vendor \
     libavservices_minijail.vendor \
     libbluetooth_audio_session
-    
+
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth@1.1.vendor \
+    audio.bluetooth.default \
+    android.hardware.bluetooth.audio-impl
+
 # CAS
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service-lazy
