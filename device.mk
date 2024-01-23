@@ -108,6 +108,10 @@ PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.1-impl-mock
 
+# FSTAB 
+PRODUCT_PACKAGES += \
+    fstab.mt6781
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
