@@ -34,6 +34,20 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libbluetooth_audio_session
 
+# Audio configs
+PRODUCT_COPY_FILES += \
+    $(foreach file,$(wildcard $(LOCAL_PATH)/configs/audio/*), \
+        $(file):$(addprefix $(TARGET_COPY_OUT_VENDOR)/etc/, $(notdir $(file))) )
+
+# Media configs
+PRODUCT_COPY_FILES += \
+    $(foreach file,$(wildcard $(LOCAL_PATH)/configs/media/*), \
+        $(file):$(addprefix $(TARGET_COPY_OUT_VENDOR)/etc/, $(notdir $(file))) )
+
+PRODUCT_COPY_FILES += \
+    frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
+    frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml
+    
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
