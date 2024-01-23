@@ -53,6 +53,11 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2.vendor:64 \
     android.hardware.drm@1.3.vendor:64 \
     android.hardware.drm@1.4.vendor:64 
+
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0-impl
     
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
