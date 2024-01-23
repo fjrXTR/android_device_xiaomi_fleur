@@ -68,6 +68,11 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor:64 \
     android.hardware.drm@1.4.vendor:64 
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd \
+    android.hardware.fastboot@1.1-impl-mock
+    
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
