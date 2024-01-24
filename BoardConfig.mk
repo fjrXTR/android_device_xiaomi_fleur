@@ -94,6 +94,9 @@ TARGET_COPY_OUT_PRODUCT := product
 
 BOARD_USES_METADATA_PARTITION := true
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := fleur,miel,fleurp,mielp
+
 # Platform
 TARGET_BOARD_PLATFORM := mt6781
 
