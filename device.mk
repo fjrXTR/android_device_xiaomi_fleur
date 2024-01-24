@@ -118,10 +118,15 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4.vendor \
     android.hardware.camera.provider@2.5.vendor \
     android.hardware.camera.provider@2.6.vendor
-    
+
 # CAS
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service-lazy
+
+# Dumpstate
+PRODUCT_PACKAGES += \
+    android.hardware.dumpstate@1.0.vendor \
+    android.hardware.dumpstate@1.1.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
