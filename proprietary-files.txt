@@ -1732,11 +1732,7 @@ vendor/lib64/libneuron_platform.so
 
 # Power-Hardware
 -vendor/etc/vintf/manifest/power-default.xml
-vendor/lib/android.hardware.power@1.0.so
 vendor/lib/hw/power.default.so
-vendor/lib64/android.hardware.power@1.0.so
-vendor/lib64/android.hardware.power@1.1.so
-vendor/lib64/android.hardware.power@1.2.so
 vendor/lib64/hw/power.default.so
 
 # Radio
