@@ -1332,32 +1332,20 @@ vendor/etc/dsi_panel_k7s_38_0c_0b_video_mi.xml
 
 # Display-Hardware
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
-vendor/bin/hw/android.hardware.graphics.composer@2.1-service
 vendor/bin/hw/android.hardware.memtrack@1.0-service
-vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
-vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc
 vendor/etc/init/android.hardware.memtrack@1.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/memtrack.default.so
-vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib/libdrm.so
-vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
-vendor/lib64/android.hardware.graphics.composer@2.1-resources.so
-vendor/lib64/android.hardware.graphics.composer@2.1.so
 vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/hwcomposer.mt6781.so
 vendor/lib64/hw/memtrack.default.so
-vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib64/libdrm.so
-vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
 # Fido
 vendor/bin/fidoca
@@ -2397,7 +2385,6 @@ vendor/lib/gc02m1_macro_aac_mipi_raw_tuning.so
 vendor/lib/gc02m1_macro_ofilm_mipi_raw_IdxMgr.so
 vendor/lib/gc02m1_macro_ofilm_mipi_raw_tuning.so
 vendor/lib/HEVCSecureVdecCA.so
-vendor/lib/hw/displayfeature.default.so
 vendor/lib/hw/kmsetkey.beanpod.so
 vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib/imx355_ultra_ofilm_mipi_raw_IdxMgr.so
@@ -2690,7 +2677,6 @@ vendor/lib64/gc02m1_macro_aac_mipi_raw_tuning.so
 vendor/lib64/gc02m1_macro_ofilm_mipi_raw_IdxMgr.so
 vendor/lib64/gc02m1_macro_ofilm_mipi_raw_tuning.so
 vendor/lib64/HEVCSecureVdecCA.so
-vendor/lib64/hw/displayfeature.default.so
 vendor/lib64/hw/kmsetkey.beanpod.so
 vendor/lib64/hw/libSoftGatekeeper.so
 vendor/lib64/imx355_ultra_ofilm_mipi_raw_IdxMgr.so
