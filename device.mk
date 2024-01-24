@@ -172,7 +172,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.0.vendor \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0.vendor
-    
+
 # Health
 PRODUCT_PACKAGES += \
    android.hardware.health@2.1-service \
@@ -201,7 +201,20 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service \
     android.hardware.ir@1.0-impl
-    
+
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0.vendor \
+    android.hardware.keymaster@4.0.vendor \
+    android.hardware.keymaster@4.1.vendor \
+    libkeymaster4.vendor \
+    libkeymaster41.vendor \
+    libkeymaster4_1support.vendor \
+    libkeymaster4support.vendor \
+    libkeymaster_messages.vendor \
+    libkeymaster_portable.vendor \
+    libpuresoftkeymasterdevice.vendor
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
