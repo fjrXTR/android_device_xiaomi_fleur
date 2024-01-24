@@ -1727,10 +1727,6 @@ vendor/lib64/nfc_nci.st21nfc.st.so
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron
 vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc
 -vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml
-vendor/lib64/android.hardware.neuralnetworks@1.0.so
-vendor/lib64/android.hardware.neuralnetworks@1.1.so
-vendor/lib64/android.hardware.neuralnetworks@1.2.so
-vendor/lib64/android.hardware.neuralnetworks@1.3.so
 vendor/lib64/libneuron_adapter.so
 vendor/lib64/libneuron_platform.so
 
