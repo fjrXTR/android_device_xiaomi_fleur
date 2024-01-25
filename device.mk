@@ -128,6 +128,7 @@ PRODUCT_PACKAGES += \
     libhwc2on1adapter.vendor \
     libhwc2onfbadapter.vendor \
     libdrm.vendor \
+    android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.composer@2.1.vendor \
     android.hardware.graphics.composer@2.1-resources.vendor
 
