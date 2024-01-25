@@ -330,5 +330,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi 
 
+# SoundTrigger
+PRODUCT_PACKAGES += \
+    android.hardware.soundtrigger@2.3-impl
+    
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/fleur/fleur-vendor.mk)
