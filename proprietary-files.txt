@@ -1343,15 +1343,6 @@ vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/hwcomposer.mt6781.so
 vendor/lib64/hw/memtrack.default.so
 
-# Fido
-vendor/bin/fidoca
-vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml
-vendor/lib/libmfido.so
-vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so
-vendor/lib64/libmfido.so
-vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so
-
 # Fingerprint
 -vendor/framework/com.fingerprints.extension.jar
 vendor/lib64/com.fingerprints.extension@1.0.so
@@ -1519,7 +1510,6 @@ vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
 vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek
 vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2
 vendor/bin/hw/android.hardware.vibrator-service.mediatek
-vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
@@ -1530,7 +1520,6 @@ vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc
 vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
 vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc
 vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc
-vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
@@ -1633,8 +1622,6 @@ vendor/lib64/libmtkutils.so
 vendor/lib64/libmtk_bsg.so
 vendor/lib64/libmtk_drvb.so
 vendor/lib64/mt6781/libmtk_drvb.so
-vendor/lib64/vendor.mediatek.hardware.aee@1.0.so
-vendor/lib64/vendor.mediatek.hardware.aee@1.1.so
 vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
 vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
@@ -1739,13 +1726,6 @@ vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libsensor_custom.so
 vendor/lib64/sensors.touch.detect.so
 
-# Soter
--vendor/app/SoterService/SoterService.apk
-vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service
-vendor/bin/SoterProvisioningTool
-vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
-vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
-
 # Thermal
 vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
 vendor/bin/mi_thermald
@@ -1795,86 +1775,15 @@ vendor/lib64/libvibrator.so
 
 # Xiaomi
 vendor/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service
-vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service
-vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service
-vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service
-vendor/bin/hw/vendor.xiaomi.hardware.misys@4.0-service
-vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service
-vendor/bin/mlipayd@1.1
-vendor/bin/mtd@1.3
-vendor/bin/tidad@1.1
 vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.1-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.tidaservice.xml
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.vsimapp.xml
 -vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml
--vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml
--vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml
--vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml
--vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@4.0.xml
 vendor/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.misys@4.0-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
-vendor/lib/libmlipay.so
-vendor/lib/libmlipay@1.1.so
-vendor/lib/libtida@1.1.so
 vendor/lib/vendor.xiaomi.hardware.micharge@1.0.so
-vendor/lib/vendor.xiaomi.hardware.misys@1.0.so
-vendor/lib/vendor.xiaomi.hardware.misys@2.0.so
-vendor/lib/vendor.xiaomi.hardware.misys@3.0.so
-vendor/lib/vendor.xiaomi.hardware.misys@4.0.so
-vendor/lib/vendor.xiaomi.hardware.mlipay@1.0.so
-vendor/lib/vendor.xiaomi.hardware.mlipay@1.1.so
-vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so
-vendor/lib/vendor.xiaomi.hardware.tidaservice@1.0.so
-vendor/lib/vendor.xiaomi.hardware.tidaservice@1.1.so
-vendor/lib/vendor.xiaomi.hardware.touchfeature@1.0.so
-vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
 vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
 vendor/lib64/libanc_dc_plugin_xiaomi_v2.so
-vendor/lib64/libmlipay.so
-vendor/lib64/libmlipay@1.1.so
-vendor/lib64/libtida@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
-vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so
-vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
-vendor/lib64/vendor.xiaomi.hardware.mrm-V1-ndk_platform.so
-vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so
-vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so
-vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.3.so
-vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so
-vendor/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so
 
 # Misc
-vendor/bin/aeev
-vendor/bin/aee_aedv
-vendor/bin/aee_aedv64
-vendor/bin/aee_dumpstatev
 vendor/bin/AgentTest
 vendor/bin/applypatch
 vendor/bin/atcid
@@ -1966,8 +1875,6 @@ vendor/bin/xcap
 vendor/data/misc/pdc.txt
 vendor/etc/.tp/.ht120.mtc
 vendor/etc/AbnormalDisplayLog_dynamic.xml
-vendor/etc/aee-commit
-vendor/etc/aee-config
 vendor/etc/apdb/APDB_MT6785_S01__W2236
 vendor/etc/apdb/APDB_MT6785_S01__W2236_ENUM
 vendor/etc/armnn_app.config
@@ -2004,8 +1911,6 @@ vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_T-Mobile_US.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml
-vendor/etc/init/aee_aedv.rc
-vendor/etc/init/aee_aedv64.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
@@ -2725,8 +2630,6 @@ vendor/lib64/libmnl.so
 vendor/lib64/libmp3dec_mtk.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmsnr.so
-vendor/lib64/libmt.so
-vendor/lib64/libmt@1.3.so
 vendor/lib64/libmtcloader.so
 vendor/lib64/libmvpu_config_data.so
 vendor/lib64/libneuroeara.so

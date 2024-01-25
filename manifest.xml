@@ -142,12 +142,6 @@
         <fqname>@2.1::IGoodixFingerprintDaemonExt/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.mediatek.hardware.aee</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.1::IAee/AEE</fqname>
-        <fqname>@1.1::IAee/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.mediatek.hardware.apmonitor</name>
         <transport>hwbinder</transport>
         <fqname>@2.0::IApmService/apm_hidl_service</fqname>
@@ -285,24 +279,9 @@
         <fqname>@1.0::IVideoTelephony/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.microtrust.hardware.soter</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::ISoter/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.microtrust.hardware.thh</name>
         <transport>hwbinder</transport>
         <fqname>@2.0::IThhDevice/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.displayfeature</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IDisplayFeature/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.touchfeature</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::ITouchFeature/default</fqname>
     </hal>
     <sepolicy>
         <version>33.0</version>
