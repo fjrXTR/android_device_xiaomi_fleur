@@ -356,6 +356,14 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0.vendor \
     android.hardware.thermal@2.0.vendor
 
+# Wifi
+PRODUCT_PACKAGES += \
+    libkeystore-wifi-hidl:64 \
+    libkeystore-engine-wifi-hidl:64 \
+    android.hardware.wifi@1.0-service-lazy \
+    wpa_supplicant \
+    hostapd
+    
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0.vendor \
