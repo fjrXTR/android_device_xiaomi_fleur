@@ -2411,14 +2411,12 @@ vendor/lib/libvpu5.so
 vendor/lib/libvpud_vcodec.so
 vendor/lib/libvpx.so
 vendor/lib/libvt_custom.so
-vendor/lib/libwapi.so
 vendor/lib/libwo.so
 vendor/lib/libwvkeybox.so
 vendor/lib/libwvkeyboxext.so
 vendor/lib/lib_bsscore.so
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
-vendor/lib/meta_wifi_data.so
 vendor/lib/mt6781/libdpframework.so
 vendor/lib/mt6781/libnir_neon_driver.so
 vendor/lib/mt6781/libpq_prot.so
@@ -2694,7 +2692,6 @@ vendor/lib64/libvidhance_calibration_tool.so
 vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/libvpu5.so
 vendor/lib64/libvsim.so
-vendor/lib64/libwapi.so
 vendor/lib64/libwa_depth.so
 vendor/lib64/libwa_refocus.so
 vendor/lib64/libwa_rtdof.so
@@ -2708,7 +2705,6 @@ vendor/lib64/libz_stable.so
 vendor/lib64/lib_bsscore.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
-vendor/lib64/meta_wifi_data.so
 vendor/lib64/mt6781/libdpframework.so
 vendor/lib64/mt6781/libnir_neon_driver.so
 vendor/lib64/mt6781/libpq_prot.so
