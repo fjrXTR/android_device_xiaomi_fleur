@@ -335,6 +335,7 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    hardware/mediatek \
     hardware/xiaomi 
 
 # SoundTrigger
@@ -363,7 +364,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service-lazy \
     wpa_supplicant \
     hostapd
-    
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0.vendor \
