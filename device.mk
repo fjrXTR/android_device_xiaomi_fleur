@@ -268,7 +268,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     libruy.vendor \
 	libmemunreachable \
-	libmemunreachable.vendor
+	libmemunreachable.vendor \
+    libflatbuffers-cpp.vendor
 
 # Power
 PRODUCT_PACKAGES += \
