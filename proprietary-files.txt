@@ -1460,9 +1460,6 @@ vendor/lib64/hw/vulkan.mali.so
 vendor/lib64/hw/vulkan.mt6781.so
 vendor/lib64/libOpenCL.so
 
-# IFAA
--vendor/app/IFAAService/IFAAService.apk
-
 # IMS
 system/bin/vtservice
 system/etc/init/init.vtservice.rc
