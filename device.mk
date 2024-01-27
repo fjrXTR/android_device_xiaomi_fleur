@@ -311,7 +311,8 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek \
 	android.hardware.power@1.0.vendor \
     android.hardware.power@1.1.vendor \
-    android.hardware.power@1.2.vendor
+    android.hardware.power@1.2.vendor \
+    android.hardware.power-V2-ndk.vendor:64 
 
 # Power/Perf configs
 PRODUCT_COPY_FILES += \
