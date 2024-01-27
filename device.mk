@@ -294,7 +294,13 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.android.nfc_extras.xml
 
 # Overlays
-PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_PACKAGES += \
+    CarrierConfigOverlayFleur \
+    FrameworksResOverlayFleur \
+    SettingsResOverlayFleur \
+    SystemUIOverlayFleur \
+    TelephonyOverlayFleur \
+    TetheringOverlayFleur
 
 # Other Common libs
 PRODUCT_PACKAGES += \
