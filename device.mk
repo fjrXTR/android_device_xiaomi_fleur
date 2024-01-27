@@ -66,7 +66,6 @@ PRODUCT_PACKAGES += \
     audio_policy.stub \
     libalsautils \
     libaudiofoundation.vendor \
-    libbluetooth_audio_session.vendor \
     libbluetooth_audio_session
 
 # Audio configs
