@@ -51,7 +51,7 @@ ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifest_nfc.xml
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_KERNEL_BASE := 0x40078000
-BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2a
+BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_RAMDISK_OFFSET := 0x07c08000
@@ -144,15 +144,13 @@ BOARD_AVB_VBMETA_VENDOR_ROLLBACK_INDEX_LOCATION := 3
 TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-ext.cpp
 
 # SELinux
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE += $(DEVICE_PATH)/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(DEVICE_PATH)/framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    $(DEVICE_PATH)/framework_compatibility_matrix.xml 
 
 # VNDK
 BOARD_VNDK_VERSION := current
