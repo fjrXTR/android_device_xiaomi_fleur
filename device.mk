@@ -132,6 +132,15 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1.vendor \
     android.hardware.graphics.composer@2.1-resources.vendor
 
+# Display Resolution
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
+
+# Display Density
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+TARGET_SCREEN_DENSITY := 440
+
 # Dumpstate
 PRODUCT_PACKAGES += \
     android.hardware.dumpstate@1.0.vendor \
