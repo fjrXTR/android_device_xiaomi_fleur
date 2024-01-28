@@ -86,11 +86,13 @@ PRODUCT_PACKAGES += \
 
 # Binder
 PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.base@1.0.vendor \
+    android.hidl.allocator@1.0.vendor \
+    android.hidl.memory.block@1.0 \
+    android.hidl.memory.block@1.0.vendor \
     libhidltransport \
     libhidltransport.vendor \
-    android.hidl.allocator@1.0 \
-    android.hidl.memory.block@1.0 \
-    libhwbinder \
     libhwbinder.vendor
 
 # Bluetooth
@@ -102,6 +104,7 @@ PRODUCT_PACKAGES += \
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
+    bootctrl.default \
     android.hardware.boot@1.2-impl \
     android.hardware.boot@1.2-impl.recovery \
     android.hardware.boot@1.2-service
@@ -119,9 +122,17 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5.vendor \
     android.hardware.camera.provider@2.6.vendor
 
+PRODUCT_PACKAGES += \
+    libxml2.vendor
+
 # CAS
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service-lazy
+
+# Codec2 modules
+PRODUCT_PACKAGES += \
+    com.android.media.swcodec \
+    libsfplugin_ccodec
 
 # Display
 PRODUCT_PACKAGES += \
@@ -249,10 +260,6 @@ PRODUCT_PACKAGES += \
 # Light
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
-    
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
 
 # Media
 PRODUCT_PACKAGES += \
@@ -321,6 +328,10 @@ PRODUCT_PACKAGES += \
 	libmemunreachable \
 	libmemunreachable.vendor \
     libflatbuffers-cpp.vendor
+
+# Pcap
+PRODUCT_PACKAGES += \
+    libpcap.vendor
 
 # Power
 PRODUCT_PACKAGES += \
@@ -409,7 +420,6 @@ PRODUCT_PACKAGES += \
 # Sensors MultiHAL config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
-
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
