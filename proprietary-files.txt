@@ -1448,7 +1448,6 @@ vendor/lib/egl/libMEOW_gift.so
 vendor/lib/egl/libMEOW_qt.so
 vendor/lib/egl/libMEOW_trace.so
 vendor/lib/hw/vulkan.mali.so
-vendor/lib/hw/vulkan.mt6781.so
 vendor/lib/libOpenCL.so
 vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/egl/libGLES_meow.so
@@ -1457,7 +1456,6 @@ vendor/lib64/egl/libMEOW_gift.so
 vendor/lib64/egl/libMEOW_qt.so
 vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/hw/vulkan.mali.so
-vendor/lib64/hw/vulkan.mt6781.so
 vendor/lib64/libOpenCL.so
 
 # IMS
@@ -2161,7 +2159,6 @@ vendor/etc/special_pws_channel.xml
 vendor/etc/task_profiles.json
 vendor/etc/throttle.sh
 vendor/etc/ueventd.rc
-vendor/etc/usb_audio_accessory_only_policy_configuration.xml
 vendor/etc/vendor-apns-conf.xml
 vendor/etc/VideoLog_dynamic.xml
 vendor/etc/virtual-spn-conf-by-efgid1.xml
@@ -2228,7 +2225,6 @@ vendor/lib/libcares_naptr.so
 vendor/lib/libcarrierconfig.so
 vendor/lib/libccci_util.so
 vendor/lib/libcharon-ss.so
-vendor/lib/libcheckpid.so
 vendor/lib/libchromanr.so
 vendor/lib/libcmdl.so
 vendor/lib/libcmdl_ndk.mtk.vndk.so
@@ -2309,7 +2305,6 @@ vendor/lib/libmp3dec_mtk.so
 vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmp4enc_xa.ca7.so
 vendor/lib/libmsbc_mtk.so
-vendor/lib/libmt.so
 vendor/lib/libmtcloader.so
 vendor/lib/libmvpu_config_data.so
 vendor/lib/libneuroeara.so
@@ -2513,7 +2508,6 @@ vendor/lib64/libcares_naptr.so
 vendor/lib64/libcarrierconfig.so
 vendor/lib64/libccci_util.so
 vendor/lib64/libcharon-ss.so
-vendor/lib64/libcheckpid.so
 vendor/lib64/libchromanr.so
 vendor/lib64/libchrome.so
 vendor/lib64/libcmdl.so
@@ -2600,7 +2594,6 @@ vendor/lib64/libmfllcore.so
 vendor/lib64/libmifpext.so
 vendor/lib64/libminiui.so
 vendor/lib64/libmipc.so
-vendor/lib64/libmiriskmanager_isee.so
 vendor/lib64/libmisound.so
 vendor/lib64/libmisoundcrossfade.so
 vendor/lib64/libmiStereoFactoryRemapBasicLib.so
