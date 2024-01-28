@@ -2,9 +2,6 @@
 # vendor.prop for mt6781
 #
 
-# ADB
-persist.adb.nonblocking_ffs=1
-
 # AEE
 ro.vendor.have_aeev_feature=1
 
