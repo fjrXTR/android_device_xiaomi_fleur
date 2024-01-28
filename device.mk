@@ -52,7 +52,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
     ro.debuggable=1 \
     persist.sys.usb.config=adb
-    
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service.mediatek \
@@ -281,6 +281,7 @@ PRODUCT_PACKAGES += \
     libstagefright_bufferpool@2.0.1.vendor \
     libstagefright_enc_common.vendor \
     libstagefright_flacdec.vendor \
+    libsfplugin_ccodec_utils.vendor \
     libcodec2_hidl@1.0.vendor \
     libcodec2_hidl@1.1.vendor \
     libcodec2_hidl@1.2.vendor \
