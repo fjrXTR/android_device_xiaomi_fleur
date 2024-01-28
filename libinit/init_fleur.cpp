@@ -92,7 +92,4 @@ static const std::vector<variant_info_t> variants = {
 void vendor_load_properties() {
     search_variant(variants);
     set_dalvik_heap();
-
-    // SafetyNet workaround
-    property_override("ro.boot.verifiedbootstate", "green");
 }
