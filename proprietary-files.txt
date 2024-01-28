@@ -1777,6 +1777,7 @@ vendor/lib/vendor.xiaomi.hardware.micharge@1.0.so
 vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
 vendor/lib64/libanc_dc_plugin_xiaomi_v2.so
 vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.mrm-V1-ndk_platform.so
 
 # WiFi
 -vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
@@ -2230,6 +2231,9 @@ vendor/lib/libcharon-ss.so
 vendor/lib/libchromanr.so
 vendor/lib/libcmdl.so
 vendor/lib/libcmdl_ndk.mtk.vndk.so
+vendor/lib/libcodec2_hidl@1.0.so
+vendor/lib/libcodec2_hidl@1.1.so
+vendor/lib/libcodec2_hidl@1.2.so
 vendor/lib/libcodec2_hidl_plugin.so
 vendor/lib/libcodec2_mtk_c2store.so
 vendor/lib/libcodec2_mtk_vdec.so
@@ -2511,6 +2515,9 @@ vendor/lib64/libcharon-ss.so
 vendor/lib64/libchromanr.so
 vendor/lib64/libcmdl.so
 vendor/lib64/libcmdl_ndk.mtk.vndk.so
+vendor/lib64/libcodec2_hidl@1.0.so
+vendor/lib64/libcodec2_hidl@1.1.so
+vendor/lib64/libcodec2_hidl@1.2.so
 vendor/lib64/libcodec2_hidl_plugin.so
 vendor/lib64/libcodec2_mtk_c2store.so
 vendor/lib64/libcodec2_mtk_vdec.so
@@ -2638,7 +2645,6 @@ vendor/lib64/libshmemutil.so
 vendor/lib64/libsimaka.so
 vendor/lib64/libsimlock.so
 vendor/lib64/libsimmelock.so
-vendor/lib64/libsoft_attestation_cert.so
 vendor/lib64/libspeechparser_vendor.so
 vendor/lib64/libspeech_enh_lib.so
 vendor/lib64/libSQLiteModule_VER_ALL.so

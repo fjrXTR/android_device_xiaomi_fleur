@@ -217,6 +217,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.fleur \
     android.hardware.health-service.fleur-recovery
 
+# IFAA manager
+PRODUCT_PACKAGES += \
+    IFAAService
+
 # IMS
 PRODUCT_BOOT_JARS += \
     mediatek-common \
@@ -228,7 +232,7 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-common
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/permissions/com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.mediatek.ims.xml
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.mediatek.ims.xml
 
 # Init
 PRODUCT_PACKAGES += \
@@ -257,13 +261,18 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0.vendor \
     android.hardware.keymaster@4.0.vendor \
     android.hardware.keymaster@4.1.vendor \
-    libkeymaster4.vendor \
-    libkeymaster41.vendor \
-    libkeymaster4_1support.vendor \
-    libkeymaster4support.vendor \
-    libkeymaster_messages.vendor \
-    libkeymaster_portable.vendor \
-    libpuresoftkeymasterdevice.vendor
+    libkeymaster4.vendor:64 \
+    libkeymaster41.vendor:64 \
+    libkeymaster4_1support.vendor:64 \
+    libkeymaster4support.vendor:64 \
+    libkeymaster_messages.vendor:64 \
+    libkeymaster_portable.vendor:64 \
+    libpuresoftkeymasterdevice.vendor:64 \
+    libsoft_attestation_cert.vendor:64 
+
+# Keystore
+PRODUCT_PACKAGES += \
+    android.system.keystore2
 
 # Light
 PRODUCT_PACKAGES += \
@@ -282,9 +291,6 @@ PRODUCT_PACKAGES += \
     libstagefright_enc_common.vendor \
     libstagefright_flacdec.vendor \
     libsfplugin_ccodec_utils.vendor \
-    libcodec2_hidl@1.0.vendor \
-    libcodec2_hidl@1.1.vendor \
-    libcodec2_hidl@1.2.vendor \
     libcodec2_soft_common.vendor \
     libstagefright_foundation.vendor
 
@@ -336,7 +342,8 @@ PRODUCT_PACKAGES += \
     libruy.vendor \
 	libmemunreachable \
 	libmemunreachable.vendor \
-    libflatbuffers-cpp.vendor
+    libflatbuffers-cpp.vendor \
+    libfmq.vendor
 
 # Pcap
 PRODUCT_PACKAGES += \
